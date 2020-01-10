@@ -13,4 +13,7 @@
 .barrier-closed{
     position: relative;
     left: 100px;
+
+    border:none!important;
+    box-shadow: none!important;
 }
