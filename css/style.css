@@ -2,13 +2,13 @@
     position: relative;
     height: 200px;
     left: -100%;
-    transition: left 4s;
+    transition: left 5s;
 
     border:none!important;
     box-shadow: none!important;
 }
 .caranimate{
-    left: 100px;
+    left: 200px;
 }
 .barrier-closed{
     position: relative;
