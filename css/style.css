@@ -1,5 +1,9 @@
 .car-slide1{
+    position: relative;
+    height: 200px;
     left: -100px;
     transition: left 3s;
     left: 200px;
+    border:none;
+    box-shadow: none;
 }
