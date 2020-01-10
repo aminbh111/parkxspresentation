@@ -15,6 +15,13 @@
     border:none!important;
     box-shadow: none!important;
 }
+.plate-scan{
+    position: relative;
+    height: 200px;
+    left: 100px;
+    border:none!important;
+    box-shadow: none!important;
+}
 .caranimate{
     left: 200px;
 }
