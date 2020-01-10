@@ -10,15 +10,14 @@
 .car-slide2{
     position: relative;
     height: 200px;
-    left: 100px;
-
+    left: 75px;
     border:none!important;
     box-shadow: none!important;
 }
 .plate-scan{
     position: relative;
     height: 200px;
-    left: 100px;
+    left: 75px;
     border:none!important;
     box-shadow: none!important;
 }
