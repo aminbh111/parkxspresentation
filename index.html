@@ -20,12 +20,23 @@
 			link.type = 'text/css';
 			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
 			document.getElementsByTagName( 'head' )[0].appendChild( link );
+			Reveal.addEventListener( 'somestate', function() {
+				// TODO: Sprinkle magic
+				var el = document.querySelector("car-slide1");
+
+				if (el) {
+					el.className = "car-slide1 caranimate";
+				} else {
+					el = document.querySelector("car-slide1 caranimate");
+					el.className = "car-slide1";
+				}
+			}, false );
 		</script>
 	</head>
 	<body>
 		<div class="reveal">
 			<div class="slides">
-				<section><img src="img/car.gif" class="car-slide1"></section>
+				<section data-state="somestate"><img src="img/car.gif" class="car-slide1"></section>
 				<section>Slide 2</section>
 			</div>
 		</div>

@@ -3,7 +3,10 @@
     height: 200px;
     left: -100%;
     transition: left 3s;
-    left: 100px;
+
     border:none!important;
     box-shadow: none!important;
+}
+.caranimate{
+    left: 100px;
 }
