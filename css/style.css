@@ -10,7 +10,7 @@
 .car-slide2{
     position: relative;
     height: 200px;
-    left: 200px;
+    left: 100px;
 
     border:none!important;
     box-shadow: none!important;
@@ -27,7 +27,7 @@
 }
 .barrier-closed{
     position: relative;
-    left: 100px;
+    left: 0px;
 
     border:none!important;
     box-shadow: none!important;
