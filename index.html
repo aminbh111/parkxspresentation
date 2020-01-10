@@ -47,15 +47,18 @@
 			});
 			Reveal.addEventListener( 'somestate', function() {
 				// TODO: Sprinkle magic
-				var el = document.querySelector(".car-slide1");
+				setTimeout( function () {
+					var el = document.querySelector(".car-slide1");
 
-				if (el) {
-					el.className = "car-slide1 caranimate";
-				} else {
-					el = document.querySelector(".car-slide1 .caranimate");
-					if(el!=null)
-					el.className = "car-slide1";
-				}
+					if (el) {
+						el.className = "car-slide1 caranimate";
+					} else {
+						el = document.querySelector(".car-slide1 .caranimate");
+						if(el!=null)
+							el.className = "car-slide1";
+					}
+				},500);
+
 			}, false );
 		</script>
 	</body>
