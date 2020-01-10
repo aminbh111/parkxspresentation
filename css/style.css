@@ -1,0 +1,5 @@
+.car-slide1{
+    left: -100px;
+    transition: left 3s;
+    left: 200px;
+}
