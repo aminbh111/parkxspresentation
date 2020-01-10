@@ -23,7 +23,7 @@
     box-shadow: none!important;
 }
 .caranimate{
-    left: 200px;
+    left: 75px;
 }
 .barrier-closed{
     position: relative;
@@ -35,4 +35,8 @@
 .hmiscreen {
     right: 0;
     position: absolute;
+}
+.reveal .slides section, .reveal .slides section > section {
+    line-height: 4.3!important;
+    font-weight: inherit;
 }
