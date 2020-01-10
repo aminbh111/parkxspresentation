@@ -33,7 +33,6 @@
     box-shadow: none!important;
 }
 .hmiscreen {
-    width: 250px;
-    left: 96px;
-    position: relative;
+    right: 0;
+    position: absolute;
 }
