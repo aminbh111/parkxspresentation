@@ -20,17 +20,7 @@
 			link.type = 'text/css';
 			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
 			document.getElementsByTagName( 'head' )[0].appendChild( link );
-			Reveal.addEventListener( 'somestate', function() {
-				// TODO: Sprinkle magic
-				var el = document.querySelector("car-slide1");
 
-				if (el) {
-					el.className = "car-slide1 caranimate";
-				} else {
-					el = document.querySelector("car-slide1 caranimate");
-					el.className = "car-slide1";
-				}
-			}, false );
 		</script>
 	</head>
 	<body>
@@ -55,6 +45,17 @@
 					{ src: 'plugin/highlight/highlight.js', async: true }
 				]
 			});
+			Reveal.addEventListener( 'somestate', function() {
+				// TODO: Sprinkle magic
+				var el = document.querySelector("car-slide1");
+
+				if (el) {
+					el.className = "car-slide1 caranimate";
+				} else {
+					el = document.querySelector("car-slide1 caranimate");
+					el.className = "car-slide1";
+				}
+			}, false );
 		</script>
 	</body>
 </html>
